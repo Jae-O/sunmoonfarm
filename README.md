@@ -1,6 +1,6 @@
 # 📦 SM AUCTION – 모바일 중고 경매 플랫폼
 
-> **“안전하고 효율적인 모바일 중고 경매 거래, 실시간 채팅과 자동 송금까지 지원하는 올인원 앱”**
+> **“교내 중고 거래부터 경매까지 접근성이 다르다”**
 
 ---
 
@@ -38,49 +38,36 @@
 - 탭 내비게이션 / 스택 내비게이션 혼합 사용
 - 인트로, 로그인, 회원가입, 홈 등 기본 구성 완료
 
-### 🔁 중고거래 기능 (담당)
+🔁 중고거래 기능 (담당)
+<div align="center"> <img src="https://github.com/user-attachments/assets/3fffe613-c418-451c-ab21-423e5dd501bd" width="200" /> <img src="https://github.com/user-attachments/assets/3c27086e-f30f-4b5d-9276-873e3bac5f8e" width="200" /> </div> <p align="center"><i>상품 목록 및 상세 페이지 / 거래 상태 및 채팅 연동</i></p>
+글 등록, 수정, 삭제, 판매완료 처리
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/your-post-list-image.png" width="200" />
-  <img src="https://github.com/user-attachments/assets/your-post-detail-image.png" width="200" />
-</div>
+Firebase Firestore 기반 상품 데이터 저장
 
-<p align="center"><i>상품 목록 및 상세 페이지 / 거래 상태 및 채팅 연동</i></p>
+실시간 거래 상태 변경 반영
 
-- 글 등록, 수정, 삭제, 판매완료 처리
-- Firebase Firestore 기반 상품 데이터 저장
-- 실시간 거래 상태 변경 반영
+📂 카테고리 & 검색 (담당)
+<div align="center"> <img src="https://github.com/user-attachments/assets/52fff6d0-467b-4ec7-bf2c-0cfa9004ee51" width="200" /> <img src="https://github.com/user-attachments/assets/cfdf05d9-fd59-4acd-9246-5ba35031b3ca" width="200" /> <img src="https://github.com/user-attachments/assets/8c3d6541-3cdc-4e05-8fd2-c68f25465316" width="200" /> </div> <p align="center"><i>카테고리별 필터 / 키워드 검색 / 정렬 기능</i></p>
+키워드 기반 검색 구현
 
----
+카테고리 선택 필터로 사용자 편의성 확보
 
-### 📂 카테고리 & 검색 (담당)
+데이터 정렬 / 필터링 UI 구현
 
-- 키워드 기반 검색 구현
-- 카테고리 선택 필터로 사용자 편의성 확보
-- 데이터 정렬 / 필터링 UI 구현
+🔨 경매 기능
+<div align="center"> <img src="https://github.com/user-attachments/assets/4231386a-f8e2-4718-b0d6-19ba9145e36c" width="200" /> </div> <p align="center"><i>경매 등록 / 참여 / 낙찰 처리</i></p>
+자동 송금 연동 구조 설계 (향후 Toss API 연동 고려)
 
----
+경매 종료 시 최종 입찰자에게 자동 낙찰
 
-### 🔨 경매 기능
+💬 실시간 채팅 & 송금
+<div align="center"> <img src="https://github.com/user-attachments/assets/58cb4300-9e28-433b-8277-7a09cadd27bb" width="200" /> <img src="https://github.com/user-attachments/assets/0507a890-3894-4ff4-911c-558568bc447b" width="300" /> </div> <p align="center"><i>실시간 채팅 / 자동 송금 처리 UI</i></p>
+1:1 채팅방 구성 (김준태 담당)
 
-- 경매 등록 / 참여 / 낙찰 기능
-- 자동 송금 연동 구조 설계 (향후 Toss API 연동 고려)
-- 경매 종료 시 최종 입찰자에게 자동 낙찰
+거래 중 채팅으로 협의 가능
 
----
-
-### 💬 실시간 채팅 & 송금
-
-- 1:1 채팅방 구성 (김준태 담당)
-- 거래 중 채팅으로 협의 가능
-
-
----
-
-### 👤 사용자 정보
-
-- 내 정보 / 상대방 정보 프로필 확인
-- 사용자 신고 기능 제공
+👤 사용자 정보
+<div align="center"> <img src="https://github.com/user-attachments/assets/2be007fc-ef65-4d24-9033-557956c57b34" width="200" /> <img src="https://github.com/user-attachments/assets/3a09a31b-ca7d-4a20-bcaf-c4ed5a130809" width="200" /> </div> <p align="center"><i>내 정보 및 상대방 프로필 확인 / 신고 기능</i></p>
 
 ---
 
